@@ -22,8 +22,8 @@ const Home = () => {
       <p className='fs10'>Explore the latest job openings and apply htmlFor the best opportunities available today!</p>
       <div className="jobSearch">
         <input type="text" placeholder='Job Title, Company, or Keywords' />
-        <Dropdown className='jobTypeDropdown' placeholder="Select Location" list={location} />
         <Dropdown className='locationDropdown' placeholder="Job Type" list={jobType} />
+        <Dropdown className='jobTypeDropdown' placeholder="Select Location" list={location} />
         <Button text="Search" icon={<Svg />} type="1" />
       </div>
       <div className="jobTags">

@@ -23,8 +23,12 @@ const SideDrawer = ({ nav }) => {
             </button>
 
             <Drawer open={isOpen} onClose={toggleDrawer} direction='left' >
-                <div>
-                    <img src={logo} alt="logo" />
+                <div className='drawerMain'>
+                    <div className='drawerTopSection'>
+                        <img src={logo} alt="logo" />
+                        <img className='profile' src={profilePic} alt="" />
+                    </div>
+                    <Searchbar />
                     <nav>
                         <ul>
                             {nav.map((item, index) => (
@@ -32,9 +36,7 @@ const SideDrawer = ({ nav }) => {
                             ))}
                         </ul>
                     </nav>
-                    <Searchbar />
                     <Button text="Resume Builder" />
-                    <img className='profile' src={profilePic} alt="" />
                 </div>
             </Drawer>
         </div>

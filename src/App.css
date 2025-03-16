@@ -68,6 +68,7 @@ header .profile {
   position: relative;
   z-index: 101;
 }
+
 .line {
   fill: none;
   stroke: var(--clr2);
@@ -75,28 +76,34 @@ header .profile {
   transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
     stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .line1 {
   stroke-dasharray: 60 207;
   stroke-width: 6;
 }
+
 .line2 {
   stroke-dasharray: 60 60;
   stroke-width: 6;
 }
+
 .line3 {
   stroke-dasharray: 60 207;
   stroke-width: 6;
 }
+
 .opened .line1 {
   stroke-dasharray: 90 207;
   stroke-dashoffset: -134;
   stroke-width: 6;
 }
+
 .opened .line2 {
   stroke-dasharray: 1 60;
   stroke-dashoffset: -30;
   stroke-width: 6;
 }
+
 .opened .line3 {
   stroke-dasharray: 90 207;
   stroke-dashoffset: -134;
@@ -108,7 +115,8 @@ header .profile {
 .mobileHeader {
   display: none;
 }
-.mobileHeader nav ul{
+
+.mobileHeader nav ul {
   list-style: none;
 }
 
@@ -262,6 +270,29 @@ header .profile {
 
 .dropdownArrow svg {
   color: var(--clr9);
+}
+
+/* DRAWER STARTS */
+.drawerMain {
+  padding: 20px;
+}
+.drawerMain nav{
+  margin-top: 20px;
+}
+.drawerMain nav ul li{
+  margin-bottom: 8px;
+}
+.drawerTopSection{
+  display: flex;
+  justify-content: space-between;
+}
+.drawerMain .searchBar{
+  margin-top: 20px;
+  margin-right: 0;
+}
+.drawerMain .btn1{
+  margin-top: 20px;
+  max-width: 100%;
 }
 
 /* HOMEPAGE STARTS */
@@ -509,6 +540,7 @@ header .profile {
     cursor: pointer;
   }
 }
+
 @media (max-width: 768px) {
   .jobSearch {
     grid-template-columns: 1.1fr .9fr 1fr;
@@ -564,13 +596,16 @@ header .profile {
   .jobSearch input {
     margin: 10px 0 0 0;
   }
-  .jobSearch>div{
+
+  .jobSearch>div {
     padding: 0;
   }
-  .css-hlgwow{
+
+  .css-hlgwow {
     padding: 0 !important;
   }
-  .css-1jqq78o-placeholder{
+
+  .css-1jqq78o-placeholder {
     margin-left: 0 !important;
   }
 }
