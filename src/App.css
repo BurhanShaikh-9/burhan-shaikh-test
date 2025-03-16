@@ -313,10 +313,6 @@ header .profile {
   align-items: center;
 }
 
-/* .jobSearch .btn1 {
-  max-width: 140px;
-} */
-
 .jobSearch>div {
   border-right: 1px solid var(--clr8);
   padding: 0 10px;
