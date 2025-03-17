@@ -173,6 +173,9 @@ header .profile {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.EZDrawer__containerk2toa{
+  width: 280px !important;
+}
 
 .sidebarStats {
   background-color: var(--clr7);
