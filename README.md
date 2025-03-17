@@ -1,4 +1,4 @@
-# Burhan-Shaikh React Project
+# Burhan-Shaikh Frontend Test
 
 This is a React project built with Vite.
 
