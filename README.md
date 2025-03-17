@@ -37,13 +37,3 @@ npm run dev
  ├── config/         # Configuration files
  ├── index.html      # Main HTML file
 ```
-
-### 📦 Dependencies
-
-This project uses the following main dependencies:
-
-React ^19.0.0
-React Router ^7.3.0
-React Icons ^5.5.0
-React Select ^5.10.1
-React Modern Drawer ^1.4.0
