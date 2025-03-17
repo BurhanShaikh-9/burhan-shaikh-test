@@ -172,6 +172,7 @@ a {
 .body {
   background-color: var(--clr6);
   padding: 25px 0;
+  height: calc(100vh - 70px);
 }
 
 .bodyInner {
